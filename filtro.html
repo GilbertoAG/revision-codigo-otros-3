@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./filtro.css">
+  <title>Filtros en JS</title>
+</head>
+
+<body>
+
+  <!-- Cambios:
+         1. Se modifico el link de HTML al CSS agregandole "./"
+         2. Se agrego una clase al input llamada "input".
+         3. Se cambio el primer div por una lista ordenada y se mantuvo el id          
+         4. Se cambio la referencia al archivo de Javascript, ya que la ruta era incorrecta. 
+         5. El codigo en CSS se ve correcto
+         6. Se podria mejorar el acomodo de los iconos creando un directorio llamada Assets.
+         -->
+
+
+  <div>
+      <input type="text" placeholder="Seleccioná un color o tipo" class="input">
+      <button>Filtrar</button>
+      <h1>Lista de productos </h1>
+      <ol id="lista-de-productos">
+      </ol>
+  </div>
+  <script src="./filtro.js"></script>
+</body>
+
+</html>
